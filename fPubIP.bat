@@ -1,1 +1,1 @@
-echo (Invoke-WebRequest ifconfig.me/ip).Content.Trim()
+powershell (Invoke-WebRequest ifconfig.me/ip).Content.Trim()
